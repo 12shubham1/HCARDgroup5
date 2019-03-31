@@ -176,7 +176,7 @@ def checkPointScored(paddle1, ball, score, ballDirY,goal_sound,aww_sound):
         
         time.sleep(2)
                 
-        return 0 #indicates missed ball
+        return 0 #missed ball
     
     #1 point for hitting the ball
     elif ballDirY == 1 and paddle1.top < ball.bottom and paddle1.left < ball.left and paddle1.right > ball.right:
